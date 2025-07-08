@@ -1,0 +1,14 @@
+Research Query: where is faisalabad?
+Generated on: 2025-07-02 02:00:00
+==================================================
+
+Topic: Faisalabad
+
+Summary:
+Faisalabad, formerly known as Lyallpur, is the second-largest city in the Pakistani province of Punjab. Located in the Rachna Doab region of central Punjab, it lies at an altitude of 186 meters (610 feet). The city was established in 1892 and is recognized for its significant industrial contributions, earning it the nickname "Manchester of Pakistan."
+
+Sources Used:
+1. https://en.wikipedia.org/wiki/Faisalabad
+2. https://www.locateplanet.com/placelocation/faisalabad-punjab-pakistan
+
+Tools Used: wikipedia, search
