@@ -1,0 +1,72 @@
+[
+  {
+    "instruction": "What is photosynthesis?",
+    "input": "",
+    "output": "Photosynthesis is the process by which green plants convert sunlight into chemical energy."
+  },
+  {
+    "instruction": "Translate 'Good morning' to Spanish.",
+    "input": "",
+    "output": "Buenos d\u00edas"
+  },
+  {
+    "instruction": "What is the capital of France?",
+    "input": "",
+    "output": "The capital of France is Paris."
+  },
+  {
+    "instruction": "Explain the theory of relativity.",
+    "input": "",
+    "output": "The theory of relativity, proposed by Albert Einstein, includes two theories: special relativity and general relativity, which describe the laws of physics in different frames of reference."
+  },
+  {
+    "instruction": "What is the boiling point of water?",
+    "input": "",
+    "output": "The boiling point of water is 100 degrees Celsius at standard atmospheric pressure."
+  },
+  {
+    "instruction": "Who wrote 'To Kill a Mockingbird'?",
+    "input": "",
+    "output": "'To Kill a Mockingbird' was written by Harper Lee."
+  },
+  {
+    "instruction": "What is the largest planet in our solar system?",
+    "input": "",
+    "output": "The largest planet in our solar system is Jupiter."
+  },
+  {
+    "instruction": "Define photosynthesis.",
+    "input": "",
+    "output": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll."
+  },
+  {
+    "instruction": "What is the Pythagorean theorem?",
+    "input": "",
+    "output": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."
+  },
+  {
+    "instruction": "What is the chemical formula for water?",
+    "input": "",
+    "output": "The chemical formula for water is H2O."
+  },
+  {
+    "instruction": "What is the main ingredient in guacamole?",
+    "input": "",
+    "output": "The main ingredient in guacamole is avocado."
+  },
+  {
+    "instruction": "Who painted the Mona Lisa?",
+    "input": "",
+    "output": "The Mona Lisa was painted by Leonardo da Vinci."
+  },
+  {
+    "instruction": "What is the speed of light?",
+    "input": "",
+    "output": "The speed of light in a vacuum is approximately 299,792 kilometers per second."
+  },
+  {
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "output": "The capital of Japan is Tokyo."
+  }
+]
