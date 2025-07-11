@@ -6,7 +6,7 @@ A Retrieval-Augmented Generation (RAG) system using local LLMs and vector embedd
 
 ## Features
 
-- 🤖 **Local LLM Integration:** Uses Ollama with Llama 3.2 model for text generation
+- 🤖 **Local LLM Integration:** Uses Ollama with Llama 3 model for text generation
 - 🔍 **Vector Search:** Implements ChromaDB for efficient similarity search
 - 📊 **Document Processing:** Processes restaurant reviews from CSV data
 - 💬 **Interactive Chat:** Command-line interface for asking questions
@@ -26,7 +26,7 @@ The system consists of three main components:
 2. **Main Application (`main.py`):**
     - Implements the chat interface
     - Combines retrieved reviews with user questions
-    - Generates responses using Llama 3.2
+    - Generates responses using Llama 3
 
 3. **Data:**
     - CSV file containing realistic pizza restaurant reviews with ratings and dates (or your own CSV file with reviews)
@@ -38,7 +38,7 @@ The system consists of three main components:
 - Python 3.8+
 - Ollama installed locally
 - Required Ollama models:
-    - `llama3.2` (for text generation)
+    - `llama3` (for text generation)
     - `mxbai-embed-large` (for embeddings)
 
 ---
@@ -62,7 +62,7 @@ The system consists of three main components:
     - Download and install Ollama from [https://ollama.ai](https://ollama.ai)
     - Pull the required models:
       ```bash
-      ollama pull llama3.2
+      ollama pull llama3
       ollama pull mxbai-embed-large
       ```
 
@@ -136,7 +136,7 @@ The system consists of three main components:
     - The question is embedded using the same model
     - Top 5 most similar reviews are retrieved
     - Retrieved reviews are combined with the question in a prompt template
-5. **Response Generation:** The Llama 3.2 model generates a contextual response based on the retrieved reviews and the user's question.
+5. **Response Generation:** The Llama 3 model generates a contextual response based on the retrieved reviews and the user's question.
 
 ---
 
@@ -155,7 +155,7 @@ Replace `realistic_restaurant_reviews.csv` with your own data. Ensure it has col
 
 Modify the model names in:
 
-- `main.py`: Change `OllamaLLM(model="llama3.2")` to your preferred model
+- `main.py`: Change `OllamaLLM(model="llama3")` to your preferred model
 - `vector.py`: Change `OllamaEmbeddings(model="mxbai-embed-large")` to your preferred embedding model
 
 ### Adjusting Retrieval
@@ -164,7 +164,7 @@ In `vector.py`, modify the retriever parameters:
 
 ```python
 retriever = vector_store.as_retriever(
-    search_kwargs={"k": 10}  # Retrieve more documents
+    search_kwargs={"k": 5}  # Retrieve top 5 documents
 )
 ```
 
